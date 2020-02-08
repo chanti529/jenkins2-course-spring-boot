@@ -77,4 +77,12 @@
 			</plugin>
 		</plugins>
 	</build>
+        <distributionManagement>
+           <snapshotRepository>
+            <id>snapshots</id>
+            <name>gkn-art1-snapshots</name>
+            <url>http://10.176.0.11:8081/artifactory/libs-snapshot-local</url>
+           </snapshotRepository>
+        </distributionManagement>
 </project>
+
