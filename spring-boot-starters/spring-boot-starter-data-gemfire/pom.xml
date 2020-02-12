@@ -37,7 +37,7 @@
 	<repositories>
 		<repository>
 			<id>repo.spring.io</id>
-			<url>https://repo.spring.io/libs-release</url>
+			<url>http://10.176.0.11:8081/artifactory/remote-spring/libs-release</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
