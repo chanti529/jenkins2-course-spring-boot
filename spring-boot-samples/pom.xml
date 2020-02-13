@@ -192,7 +192,7 @@
 		<repository>
 			<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
-			<url>http://10.176.0.11:8081/snapshot</url>
+			<url>http://10.176.0.11:8081//snapshot</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
@@ -200,7 +200,7 @@
 		<repository>
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
-			<url>http://10.176.0.11:8081/milestone</url>
+			<url>http://10.176.0.11:8081//milestone</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
@@ -210,7 +210,7 @@
 		<pluginRepository>
 			<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
-			<url>http://10.176.0.11:8081/snapshot</url>
+			<url>http://10.176.0.11:8081//snapshot</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
@@ -218,7 +218,7 @@
 		<pluginRepository>
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
-			<url>http://10.176.0.11:8081/milestone</url>
+			<url>http://10.176.0.11:8081//milestone</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
@@ -226,7 +226,7 @@
 		<pluginRepository>
 			<id>spring-releases</id>
 			<name>Spring Releases</name>
-			<url>http://10.176.0.11:8081/release</url>
+			<url>http://10.176.0.11:8081//release</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
