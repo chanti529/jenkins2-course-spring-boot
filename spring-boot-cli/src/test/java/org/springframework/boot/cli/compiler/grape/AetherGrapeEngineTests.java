@@ -46,7 +46,7 @@ public class AetherGrapeEngineTests {
 	private final GroovyClassLoader groovyClassLoader = new GroovyClassLoader();
 
 	private final RepositoryConfiguration springMilestones = new RepositoryConfiguration(
-			"spring-milestones", URI.create("http://10.176.0.11:8081/artifactory/remote-spring/milestone"), false);
+			"spring-milestones", URI.create("http://10.176.0.11:8081//milestone"), false);
 
 	private AetherGrapeEngine createGrapeEngine(
 			RepositoryConfiguration... additionalRepositories) {
