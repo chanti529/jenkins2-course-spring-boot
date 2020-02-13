@@ -45,10 +45,10 @@ public final class RepositoryConfigurationFactory {
 			"central", URI.create("http://repo1.maven.org/maven2/"), false);
 
 	private static final RepositoryConfiguration SPRING_MILESTONE = new RepositoryConfiguration(
-			"spring-milestone", URI.create("http://10.176.0.11:8081//milestone"), false);
+			"spring-milestone", URI.create("http://10.176.0.11:8081/artifactory/remote-spring/milestone"), false);
 
 	private static final RepositoryConfiguration SPRING_SNAPSHOT = new RepositoryConfiguration(
-			"spring-snapshot", URI.create("http://10.176.0.11:8081//snapshot"), true);
+			"spring-snapshot", URI.create("http://10.176.0.11:8081/artifactory/remote-spring/snapshot"), true);
 
 	private RepositoryConfigurationFactory() {
 	}
