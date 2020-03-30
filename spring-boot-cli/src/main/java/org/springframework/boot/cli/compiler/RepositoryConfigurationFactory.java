@@ -48,7 +48,7 @@ public final class RepositoryConfigurationFactory {
 			"spring-milestone", URI.create("https://repo.spring.io/milestone"), false);
 
 	private static final RepositoryConfiguration SPRING_SNAPSHOT = new RepositoryConfiguration(
-			"spring-snapshot", URI.create("http://10.176.0.11:8081/artifactory/remote-spring"), true);
+			"spring-snapshot", URI.create("http://10.176.0.44:8081/artifactory/remote-spring"), true);
 
 	private RepositoryConfigurationFactory() {
 	}

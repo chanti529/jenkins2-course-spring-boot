@@ -218,7 +218,7 @@ Maven, there is no "`super parent`" to import to share some configuration.
 
 	repositories {
 ifeval::["{spring-boot-repo}" != "release"]
-		maven { url "http://10.176.0.11:8081/artifactory/remote-spring" }
+		maven { url "http://10.176.0.44:8081/artifactory/remote-spring" }
 		maven { url "https://repo.spring.io/milestone" }
 endif::[]
 ifeval::["{spring-boot-repo}" == "release"]
@@ -243,7 +243,7 @@ managed by Spring Boot:
 	buildscript {
 		repositories {
 ifeval::["{spring-boot-repo}" != "release"]
-			maven { url "http://10.176.0.11:8081/artifactory/remote-spring" }
+			maven { url "http://10.176.0.44:8081/artifactory/remote-spring" }
 			maven { url "https://repo.spring.io/milestone" }
 endif::[]
 ifeval::["{spring-boot-repo}" == "release"]
@@ -261,7 +261,7 @@ endif::[]
 
 	repositories {
 ifeval::["{spring-boot-repo}" != "release"]
-		maven { url "http://10.176.0.11:8081/artifactory/remote-spring" }
+		maven { url "http://10.176.0.44:8081/artifactory/remote-spring" }
 		maven { url "https://repo.spring.io/milestone" }
 endif::[]
 ifeval::["{spring-boot-repo}" == "release"]
